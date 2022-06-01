@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 
 for i in range(97, 123):
     if i != ord('q') and i != ord('e'):
