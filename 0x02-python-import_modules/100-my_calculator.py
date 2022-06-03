@@ -2,7 +2,7 @@
 
 import sys
 if __name__ == "__main__":
-    form calculator_1 import add. sub, mul, div
+    from calculator_1 import add. sub, mul, div
     if len(sys.argv) != 4:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
@@ -19,4 +19,3 @@ if __name__ == "__main__":
     else:
         print("Unknown operator. Avaliable operator: +, -, * and /")
         exit(1)
-
